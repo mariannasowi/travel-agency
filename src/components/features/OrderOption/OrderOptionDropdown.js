@@ -24,5 +24,5 @@ OrderOptionDropdown.propTypes ={
   values: PropTypes.array,
   required: PropTypes.bool,
 };
-
-export default OrderOptionDropdown; 
+  
+export default OrderOptionDropdown;
