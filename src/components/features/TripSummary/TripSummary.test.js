@@ -27,7 +27,7 @@ describe('Component TripSummary', () => {
     expect(component.find('.details').text()).toEqual(`${expectDays} days from ${expectCost}`);
   });
 
-  it('should throw error without required props', () => {
+  it('should throw error without required props: id, image, name, cost and days', () => {
     expect(() => shallow(<TripSummary />)).toThrow();
   });	 
 
