@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
  
 class OrderOptionDate extends React.Component {
   state = {
-    startDate: new Date(),
+    startDate: this.props.currentValue || new Date(),
   };
  
   handleChange = date => {
@@ -26,7 +26,8 @@ class OrderOptionDate extends React.Component {
 }
 
 OrderOptionDate.propTypes = {
-  setOptionValue: PropTypes.func,	  
+  setOptionValue: PropTypes.func,	
+  currentValue: PropTypes.any, 
 };	
 
 export default OrderOptionDate; 
