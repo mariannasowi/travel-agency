@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
  
 class OrderOptionDate extends React.Component {
   state = {
-    startDate: this.props.currentValue || new Date(),
+    startDate: '',
   };
  
   handleChange = date => {
