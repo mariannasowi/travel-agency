@@ -48,9 +48,9 @@ const checkDescriptionAtDate = (date, expectedDescription) => {
 };
 
 describe('Component DaysToSummer with mocked Date', () => {
-  checkDescriptionAtDate('2020-05-02','50 days to summer');
-  checkDescriptionAtDate('2020-06-19','2 days to summer');
-  checkDescriptionAtDate('2020-09-25','269 days to summer');
+  checkDescriptionAtDate('2020-05-02','50 days to summer!');
+  checkDescriptionAtDate('2020-06-19','2 days to summer!');
+  checkDescriptionAtDate('2020-09-25','269 days to summer!');
 });
 
 describe('Component DaysToSummer with mocked Date', () => {
